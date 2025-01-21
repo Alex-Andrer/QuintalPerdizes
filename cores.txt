@@ -1,0 +1,6 @@
+cores site
+branco: #ffffff
+primario: #E0CAB1
+secundario: #DBA970
+destaque: #70BBDB
+botão?: #718086
