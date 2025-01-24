@@ -1,0 +1,47 @@
+<ul class="corpo__texto__lista">
+          <li>
+            Hospedagem confortável e segura para estadias longas ou curtas, sendo
+            muito bem acompanhados pelos nossos tutores
+          </li>
+          <li>
+            Sessões de adestramento para assim conseguirem frequentar a creche
+            obedientes e comportados para assim manter-se a boa convivência
+          </li>
+          <li>
+            Serviços de higiene, desde banho, corte de unhas, escovação, tosa
+            completa
+          </li>
+          <li>
+            E a nossa lojinha física onde o dono poderá comprar o brinquedo ou
+            petisco favorito do seu cão, mas também itens essenciais para o
+            conforto e cuidado daqueles que amamos tanto
+          </li>
+        </ul>
+        <br/>
+        <h2 class="corpo__titulo">Aproveite nosso site para tirar as suas dúvidas</h2>
+        </section>
+      </header>
+    <section class="corpo__images">
+      <img
+        class="corpo__image"
+        src="./images/caoGrupo.jpg"
+        alt="foto da entrada do quintal perdizes"
+      />
+      <img
+        class="corpo__image"
+        src="./images/casaJardim.jpg"
+        alt="Parte interna do ambiente"
+      />
+      <img class="corpo__image" src="./images/caoCorrendo.jpg" alt="">
+      <img class="corpo__image" src="./images/caoDeitado.jpg" alt="">
+
+
+
+
+      https://images.app.goo.gl/4PvT2wYcjhesnUxf6
+
+
+      https://images.app.goo.gl/6B964VLhiMpGUc5y8
+
+
+      https://images.app.goo.gl/QGpP3d1DA6nzSAfM9
