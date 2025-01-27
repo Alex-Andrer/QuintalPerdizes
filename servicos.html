@@ -119,6 +119,31 @@
             </div>
         </div>
     </section>
-
+    <div class="formulario">
+        <h1>Cadastro de Pets</h1>
+        <form id="pet-form">
+          <label for="name">Nome do Pet:</label>
+          <input type="text" id="name" name="name" placeholder="Digite o nome do pet" required>
+    
+          <label for="breed">Raça:</label>
+          <input type="text" id="breed" name="breed" placeholder="Digite a raça do pet" required>
+    
+          <label for="age">Idade:</label>
+          <input type="number" id="age" name="age" placeholder="Idade em anos" required>
+    
+          <label for="size">Porte:</label>
+          <select id="size" name="size" required>
+            <option value="Pequeno">Pequeno</option>
+            <option value="Médio">Médio</option>
+            <option value="Grande">Grande</option>
+          </select>
+    
+          <label for="notes">Observações:</label>
+          <textarea id="notes" name="notes" placeholder="Adicione informações adicionais"></textarea>
+    
+          <button type="submit">Cadastrar Pet</button>
+        </form>
+      </div>
+      <script src="script.js"></script>
 </body>
 </html>
