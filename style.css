@@ -5,7 +5,7 @@
 }
 
 :root {
-  --cor--primario: #b5f1cc;
+  --cor--primario: white;
   --cor--secundario: #d0f3e3;
   --cor-destaque: #70bbdb;
   --botao: #3a4246;
@@ -113,7 +113,6 @@ body {
   text-align: center;
   padding: 40px;
   font-size: 20px;
-  background-color: var(--cor--primario);
   border-radius: 12.5px;
 }
 
@@ -131,12 +130,14 @@ p{
 .corpo__images {
     justify-content: space-around;
     padding: 20px;
+    width: 200px;
 }
 
 .corpo__titulo{
   text-align: center;
   font-size: 52px;
   padding: 35px;
+  color: #FFA726;
 }
 
 .corpo__mapa{
@@ -162,7 +163,7 @@ p{
   /* width: 90%; */
 }
  .titulo_card{
-  font-size: 40px;
+  font-size: 50px;
   color: #FFA726;
   text-align: center;
  }
@@ -195,6 +196,9 @@ p{
   border-radius: 10px;
 }
 
+.card h3{
+  font-size: 35px;
+}
 .hidden-text{
   display: none;
 }
@@ -312,3 +316,4 @@ th, td {
 th {
   background-color: #f4f4f4;
 }
+
