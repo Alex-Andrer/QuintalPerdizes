@@ -36,13 +36,13 @@ body {
   margin-left: 10%;
   /* border: 1px solid black; */
   text-align: left;
-  width: 150px;
+  width: 9.375vw;
 }
 
 .navbar{
   display: flex;
   flex-flow: row wrap;
-  height: 120px;
+  height: 14.7vh;
   background-color: #FFA726;
   justify-content: center;
   align-items: center;
@@ -59,21 +59,21 @@ body {
 .logo h1{
   font-family: 'Lobster', cursive;
   color:white;
-  font-size:34px;
+  font-size:2.125rem;
 }
 
 .menu{
   flex: 70%;
   /* border: 1px solid greenyellow; */
   text-align: right;
-  padding: 20px;
+  padding: 1.25vw 2.4600246002460024vh;
 }
 
 .menu a{
   color: white;
   text-decoration: none;
-  font-size: 20px;
-  padding: 20px 16px;
+  font-size: 1.25rem;
+  padding: 2.4600246002460024vh 1vw;
 }
 
 .menu a:hover{
@@ -83,7 +83,7 @@ body {
 
 #botao{
   background: #756A95;
-  padding: 10px 25px;
+  padding: 1.2300123001230012vh 1.5625vw;
   color: white;
   border-radius: 7px;
   margin-right: 10%;
@@ -97,7 +97,7 @@ body {
 }
 
 .cabecalho{
-  padding-top: 150px;
+  padding-top: 18.45018450184502vh;
 }
 
 /*corpo*/
@@ -111,13 +111,13 @@ body {
     color: var(--botao);
   flex-direction: column;
   text-align: center;
-  padding: 40px;
-  font-size: 20px;
+  padding: 4.920049200492005vh 2.5vw;
+  font-size: 1.25rem;
   border-radius: 12.5px;
 }
 
 p{
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 
@@ -129,14 +129,14 @@ p{
 }
 .corpo__images {
     justify-content: space-around;
-    padding: 20px;
-    width: 200px;
+    padding: 2.4600246002460024vh 1.25vw;
+    width: 12.5vw;
 }
 
 .corpo__titulo{
   text-align: center;
-  font-size: 42px;
-  padding: 35px;
+  font-size: 2.625rem;
+  padding: 2.188rem;
   color: #FFA726;
 }
 
@@ -147,23 +147,23 @@ p{
 /*imagens*/
 
 .corpo__image {
-  height: 400px;
+  height: 49.20049200492005vh;
 }
 
 .section1{
   display: inline-block;
-  margin-top: 120px;
+  margin-top: 14.760147601476016vh;
   /* border: 1px solid black; */
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: -450px;
-  height: 500px;
+  margin-bottom: -55.35055350553505vh;
+  height: 61.50061500615006vh;
   padding: 5%;
   text-align: center;
   /* width: 90%; */
 }
  .titulo_card{
-  font-size: 50px;
+  font-size: 3.125rem;
   color: #FFA726;
   text-align: center;
  }
@@ -173,14 +173,15 @@ p{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 40px;
+  padding: 4.920049200492005vh 2.5vw;
+  text-align: right; width: 50%;
  }
  .card_texto{
-  padding: 0 30px;
+  padding: 0 1.875vw;
  }
 
 .duplicated{
-  padding-top: 15px;
+  padding-top: 1.845018450184502vh;
   margin-top: 0px;
   margin-left: 5%;
   margin-right: 5%;
@@ -193,11 +194,11 @@ p{
   padding: 20px;
   margin: 1%;
   border: 1px solid #FFA726;
-  border-radius: 10px;
+  border-radius: 2.4600246002460024vh 1.25vw;
 }
 
 .card h3{
-  font-size: 35px;
+  font-size: 2.188rem;
 }
 .hidden-text{
   display: none;
@@ -209,7 +210,7 @@ p{
 .card:hover{
   background: #FFA726;
   color: white;
-  padding: 40px;
+  padding: 4.920049200492005vh 2.5vw;
 }
 
 .card:hover img{
@@ -247,8 +248,8 @@ body {
 }
 
 button {
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 1.2300123001230012vh 1.25vw;
+  font-size: 1rem;
   cursor: pointer;
   border: none;
   border-radius: 5px;
@@ -270,9 +271,11 @@ button:hover {
 }
 
 .formulario {
-  max-width: 800px;
-  margin: 30px auto;
-  padding: 20px;
+  max-width: 50vw;
+  margin: 3.690036900369004vh 1.875vw
+  auto;
+  padding: 2.4600246002460024vh 1.25vw
+  ;
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -287,7 +290,7 @@ form {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 2.4600246002460024vh;
 }
 
 label {
@@ -295,20 +298,20 @@ label {
 }
 
 input, select, textarea, button {
-  padding: 10px;
+  padding: 1.2300123001230012vh 0.625vw;
   border: 1px solid #ccc;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
+  margin-top: 2.4600246002460024vh;
 }
 
 th, td {
-  padding: 10px;
+  padding: 1.2300123001230012vh 0.625vw;
   text-align: left;
   border: 1px solid #ddd;
 }
@@ -317,3 +320,35 @@ th {
   background-color: #f4f4f4;
 }
 
+.texto{
+  width: 50%;
+  font-size:1.563rem ;
+}
+
+@media only screen and (min-width: 400px) {
+  .card_inicio{
+    display: flex;
+    flex-direction: column;
+    }
+
+  .corpo__image{
+    width: 100vw;
+  }
+
+  .texto{
+    text-align: center;
+    width: 100%;
+  }
+
+  .card_inicio{
+    width: 75vw;
+  }
+
+  .card{
+    width: 75vw;
+  }
+
+  .formulario{
+    max-width: 100%;
+  }
+}
