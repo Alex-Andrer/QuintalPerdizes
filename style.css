@@ -111,7 +111,7 @@ body {
     color: var(--botao);
   flex-direction: column;
   text-align: center;
-  padding: 4.920049200492005vh 2.5vw;
+  padding: 13vh 4.920049200492005vh 2.5vw;
   font-size: 1.25rem;
   border-radius: 12.5px;
 }
@@ -148,6 +148,7 @@ p{
 
 .corpo__image {
   height: 49.20049200492005vh;
+  width: 50vw;
 }
 
 .section1{
@@ -169,15 +170,17 @@ p{
  }
 
  .card_inicio{
+  width: 100vw;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 4.920049200492005vh 2.5vw;
-  text-align: right; width: 50%;
+  text-align: right;
  }
  .card_texto{
   padding: 0 1.875vw;
+  text-align: center;
  }
 
 .duplicated{
@@ -325,7 +328,7 @@ th {
   font-size:1.563rem ;
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (max-width: 600px) {
   .card_inicio{
     display: flex;
     flex-direction: column;
@@ -333,6 +336,11 @@ th {
 
   .corpo__image{
     width: 100vw;
+  }
+
+  .card_texto{
+    text-align: center;
+    padding: 1px;
   }
 
   .texto{
